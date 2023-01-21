@@ -1,0 +1,1158 @@
+{
+  "level": "error",
+  "message": [
+    {
+      "message": "something went wrong",
+      "status": 400,
+      "type": "Bad Request"
+    }
+  ],
+  "ms": "+0ms",
+  "timestamp": "2023-01-18T07:28:38.847Z"
+}
+{
+  "level": "error",
+  "message": [
+    {
+      "exception": {},
+      "message": "something went wrong"
+    }
+  ],
+  "ms": "+0ms",
+  "timestamp": "2023-01-18T07:35:13.733Z"
+}
+{
+  "level": "error",
+  "message": [
+    {
+      "exception": {
+        "message": "Bad Request",
+        "name": "BadRequestException",
+        "options": {},
+        "response": {
+          "message": "Bad Request",
+          "statusCode": 400
+        },
+        "status": 400
+      },
+      "message": "Bad Request"
+    }
+  ],
+  "ms": "+0ms",
+  "timestamp": "2023-01-18T07:39:10.249Z"
+}
+{
+  "level": "error",
+  "message": [
+    {
+      "exception": {
+        "message": "Duplicate entry '654321-2-1' for key 'number_plateType_version'",
+        "name": "BadRequestException",
+        "options": {},
+        "response": {
+          "error": "Bad Request",
+          "message": "Duplicate entry '654321-2-1' for key 'number_plateType_version'",
+          "statusCode": 400
+        },
+        "status": 400
+      },
+      "message": "Duplicate entry '654321-2-1' for key 'number_plateType_version'"
+    }
+  ],
+  "ms": "+0ms",
+  "timestamp": "2023-01-18T07:40:11.118Z"
+}
+{
+  "level": "error",
+  "message": [
+    {
+      "error": {
+        "code": "ER_DUP_ENTRY",
+        "driverError": {
+          "code": "ER_DUP_ENTRY",
+          "errno": 1062,
+          "sql": "INSERT INTO `plates`(`createdBy`, `createdAt`, `updatedBy`, `updatedAt`, `deletedAt`, `id`, `date`, `number`, `from`, `receiver_name`, `exchange`, `exchange_date`, `exchange_to`, `execution_committee`, `version`, `plateTypeId`, `enterTypeId`, `parentId`) VALUES ('2', '2023-01-18 09:41:10.466', DEFAULT, DEFAULT, DEFAULT, DEFAULT, '2023-01-18', '654321', 'محطة مصر', 'محمد', DEFAULT, DEFAULT, DEFAULT, DEFAULT, DEFAULT, '2', '1', DEFAULT)",
+          "sqlMessage": "Duplicate entry '654321-2-1' for key 'number_plateType_version'",
+          "sqlState": "23000"
+        },
+        "errno": 1062,
+        "parameters": [
+          "2",
+          "2023-01-18T07:41:10.466Z",
+          "2023-01-18",
+          "654321",
+          "محطة مصر",
+          "محمد",
+          "2",
+          "1"
+        ],
+        "query": "INSERT INTO `plates`(`createdBy`, `createdAt`, `updatedBy`, `updatedAt`, `deletedAt`, `id`, `date`, `number`, `from`, `receiver_name`, `exchange`, `exchange_date`, `exchange_to`, `execution_committee`, `version`, `plateTypeId`, `enterTypeId`, `parentId`) VALUES (?, ?, DEFAULT, DEFAULT, DEFAULT, DEFAULT, ?, ?, ?, ?, DEFAULT, DEFAULT, DEFAULT, DEFAULT, DEFAULT, ?, ?, DEFAULT)",
+        "sql": "INSERT INTO `plates`(`createdBy`, `createdAt`, `updatedBy`, `updatedAt`, `deletedAt`, `id`, `date`, `number`, `from`, `receiver_name`, `exchange`, `exchange_date`, `exchange_to`, `execution_committee`, `version`, `plateTypeId`, `enterTypeId`, `parentId`) VALUES ('2', '2023-01-18 09:41:10.466', DEFAULT, DEFAULT, DEFAULT, DEFAULT, '2023-01-18', '654321', 'محطة مصر', 'محمد', DEFAULT, DEFAULT, DEFAULT, DEFAULT, DEFAULT, '2', '1', DEFAULT)",
+        "sqlMessage": "Duplicate entry '654321-2-1' for key 'number_plateType_version'",
+        "sqlState": "23000"
+      },
+      "message": "This plate already exists",
+      "status": 400,
+      "type": "Bad Request"
+    }
+  ],
+  "ms": "+0ms",
+  "timestamp": "2023-01-18T07:41:10.544Z"
+}
+{
+  "level": "error",
+  "message": [
+    {
+      "exception": {},
+      "message": "something went wrong"
+    }
+  ],
+  "ms": "+0ms",
+  "timestamp": "2023-01-18T07:42:04.242Z"
+}
+{
+  "level": "error",
+  "message": [
+    {
+      "exception": {},
+      "message": "something went wrong"
+    }
+  ],
+  "ms": "+0ms",
+  "timestamp": "2023-01-18T07:43:24.798Z"
+}
+{
+  "level": "error",
+  "message": [
+    {
+      "exception": {
+        "message": "Bad Request",
+        "name": "BadRequestException",
+        "options": {},
+        "response": {
+          "message": "Bad Request",
+          "statusCode": 400
+        },
+        "status": 400
+      },
+      "message": "Bad Request"
+    }
+  ],
+  "ms": "+0ms",
+  "timestamp": "2023-01-18T07:44:42.664Z"
+}
+{
+  "level": "error",
+  "message": [
+    {
+      "exception": {},
+      "message": "something went wrong"
+    }
+  ],
+  "ms": "+0ms",
+  "timestamp": "2023-01-18T07:45:10.028Z"
+}
+{
+  "level": "error",
+  "message": [
+    {
+      "error": {
+        "code": "ER_DUP_ENTRY",
+        "driverError": {
+          "code": "ER_DUP_ENTRY",
+          "errno": 1062,
+          "sql": "INSERT INTO `plates`(`createdBy`, `createdAt`, `updatedBy`, `updatedAt`, `deletedAt`, `id`, `date`, `number`, `from`, `receiver_name`, `exchange`, `exchange_date`, `exchange_to`, `execution_committee`, `version`, `plateTypeId`, `enterTypeId`, `parentId`) VALUES ('2', '2023-01-18 09:45:54.385', DEFAULT, DEFAULT, DEFAULT, DEFAULT, '2023-01-18', '654321', 'محطة مصر', 'محمد', DEFAULT, DEFAULT, DEFAULT, DEFAULT, DEFAULT, '2', NULL, DEFAULT)",
+          "sqlMessage": "Duplicate entry '654321-2-1' for key 'number_plateType_version'",
+          "sqlState": "23000"
+        },
+        "errno": 1062,
+        "parameters": [
+          "2",
+          "2023-01-18T07:45:54.385Z",
+          "2023-01-18",
+          "654321",
+          "محطة مصر",
+          "محمد",
+          "2",
+          null
+        ],
+        "query": "INSERT INTO `plates`(`createdBy`, `createdAt`, `updatedBy`, `updatedAt`, `deletedAt`, `id`, `date`, `number`, `from`, `receiver_name`, `exchange`, `exchange_date`, `exchange_to`, `execution_committee`, `version`, `plateTypeId`, `enterTypeId`, `parentId`) VALUES (?, ?, DEFAULT, DEFAULT, DEFAULT, DEFAULT, ?, ?, ?, ?, DEFAULT, DEFAULT, DEFAULT, DEFAULT, DEFAULT, ?, ?, DEFAULT)",
+        "sql": "INSERT INTO `plates`(`createdBy`, `createdAt`, `updatedBy`, `updatedAt`, `deletedAt`, `id`, `date`, `number`, `from`, `receiver_name`, `exchange`, `exchange_date`, `exchange_to`, `execution_committee`, `version`, `plateTypeId`, `enterTypeId`, `parentId`) VALUES ('2', '2023-01-18 09:45:54.385', DEFAULT, DEFAULT, DEFAULT, DEFAULT, '2023-01-18', '654321', 'محطة مصر', 'محمد', DEFAULT, DEFAULT, DEFAULT, DEFAULT, DEFAULT, '2', NULL, DEFAULT)",
+        "sqlMessage": "Duplicate entry '654321-2-1' for key 'number_plateType_version'",
+        "sqlState": "23000"
+      },
+      "message": "This plate already exists",
+      "status": 400,
+      "type": "Bad Request"
+    }
+  ],
+  "ms": "+0ms",
+  "timestamp": "2023-01-18T07:45:54.455Z"
+}
+{
+  "level": "error",
+  "message": [
+    {
+      "exception": {
+        "message": "Bad Request",
+        "name": "BadRequestException",
+        "options": {},
+        "response": {
+          "message": "Bad Request",
+          "statusCode": 400
+        },
+        "status": 400
+      },
+      "message": "Bad Request"
+    }
+  ],
+  "ms": "+0ms",
+  "timestamp": "2023-01-18T07:46:29.488Z"
+}
+{
+  "level": "error",
+  "message": [
+    {
+      "exception": {
+        "message": "Bad Request",
+        "name": "BadRequestException",
+        "options": {},
+        "response": {
+          "message": "Bad Request",
+          "statusCode": 400
+        },
+        "status": 400
+      },
+      "message": "Bad Request"
+    }
+  ],
+  "ms": "+0ms",
+  "timestamp": "2023-01-18T07:47:17.674Z"
+}
+{
+  "level": "error",
+  "message": [
+    {
+      "exception": {
+        "message": "Bad Request",
+        "name": "BadRequestException",
+        "options": {},
+        "response": {
+          "message": "Bad Request",
+          "statusCode": 400
+        },
+        "status": 400
+      },
+      "message": "Bad Request"
+    }
+  ],
+  "ms": "+0ms",
+  "timestamp": "2023-01-18T07:47:55.052Z"
+}
+{
+  "level": "error",
+  "message": [
+    {
+      "exception": {
+        "message": "Bad Request",
+        "name": "BadRequestException",
+        "options": {},
+        "response": {
+          "message": "Bad Request",
+          "statusCode": 400
+        },
+        "status": 400
+      },
+      "message": "Bad Request"
+    }
+  ],
+  "ms": "+0ms",
+  "timestamp": "2023-01-18T07:49:52.671Z"
+}
+{
+  "level": "error",
+  "message": [
+    {
+      "exception": {
+        "message": "Bad Request",
+        "name": "BadRequestException",
+        "options": {},
+        "response": {
+          "message": "Bad Request",
+          "statusCode": 400
+        },
+        "status": 400
+      },
+      "message": "Bad Request"
+    }
+  ],
+  "ms": "+0ms",
+  "timestamp": "2023-01-18T07:51:19.005Z"
+}
+{
+  "level": "error",
+  "message": [
+    {
+      "exception": {},
+      "message": "something went wrong"
+    }
+  ],
+  "ms": "+0ms",
+  "timestamp": "2023-01-18T08:18:34.108Z"
+}
+{
+  "level": "error",
+  "message": [
+    {
+      "message": "something went wrong",
+      "status": 400,
+      "type": "Bad Request"
+    }
+  ],
+  "ms": "+0ms",
+  "timestamp": "2023-01-18T08:29:22.477Z"
+}
+{
+  "level": "error",
+  "message": [
+    {
+      "message": "something went wrong",
+      "status": 400,
+      "type": "Bad Request"
+    }
+  ],
+  "ms": "+0ms",
+  "timestamp": "2023-01-18T08:30:03.716Z"
+}
+{
+  "level": "error",
+  "message": [
+    {
+      "message": "something went wrong",
+      "status": 400,
+      "type": "Bad Request"
+    }
+  ],
+  "ms": "+0ms",
+  "timestamp": "2023-01-18T08:37:11.499Z"
+}
+{
+  "level": "error",
+  "message": [
+    {
+      "message": "something went wrong",
+      "status": 400,
+      "type": "Bad Request"
+    }
+  ],
+  "ms": "+0ms",
+  "timestamp": "2023-01-18T08:38:08.853Z"
+}
+{
+  "level": "error",
+  "message": [
+    {
+      "message": "something went wrong",
+      "status": 400,
+      "type": "Bad Request"
+    }
+  ],
+  "ms": "+0ms",
+  "timestamp": "2023-01-18T08:41:12.267Z"
+}
+{
+  "level": "error",
+  "message": [
+    {
+      "message": "something went wrong",
+      "status": 400,
+      "type": "Bad Request"
+    }
+  ],
+  "ms": "+0ms",
+  "timestamp": "2023-01-18T08:42:46.075Z"
+}
+{
+  "level": "error",
+  "message": [
+    {
+      "message": "something went wrong",
+      "status": 400,
+      "type": "Bad Request"
+    }
+  ],
+  "ms": "+0ms",
+  "timestamp": "2023-01-18T08:44:04.940Z"
+}
+{
+  "level": "error",
+  "message": [
+    {
+      "exception": {},
+      "message": "something went wrong"
+    }
+  ],
+  "ms": "+0ms",
+  "timestamp": "2023-01-18T08:44:26.336Z"
+}
+{
+  "level": "error",
+  "message": [
+    {
+      "exception": {},
+      "message": "something went wrong"
+    }
+  ],
+  "ms": "+4s",
+  "timestamp": "2023-01-18T08:44:30.251Z"
+}
+{
+  "level": "error",
+  "message": [
+    {
+      "exception": {},
+      "message": "something went wrong"
+    }
+  ],
+  "ms": "+0ms",
+  "timestamp": "2023-01-18T08:45:29.370Z"
+}
+{
+  "level": "error",
+  "message": [
+    {
+      "exception": {},
+      "message": "something went wrong"
+    }
+  ],
+  "ms": "+0ms",
+  "timestamp": "2023-01-18T08:46:02.142Z"
+}
+{
+  "level": "error",
+  "message": [
+    {
+      "message": "something went wrong",
+      "status": 400,
+      "type": "Bad Request"
+    }
+  ],
+  "ms": "+0ms",
+  "timestamp": "2023-01-18T08:46:25.894Z"
+}
+{
+  "level": "error",
+  "message": [
+    {
+      "message": "something went wrong",
+      "status": 400,
+      "type": "Bad Request"
+    }
+  ],
+  "ms": "+0ms",
+  "timestamp": "2023-01-18T08:47:35.210Z"
+}
+{
+  "level": "error",
+  "message": [
+    {
+      "message": "something went wrong",
+      "status": 400,
+      "type": "Bad Request"
+    }
+  ],
+  "ms": "+0ms",
+  "timestamp": "2023-01-18T08:59:31.732Z"
+}
+{
+  "level": "error",
+  "message": [
+    {
+      "message": "something went wrong",
+      "status": 400,
+      "type": "Bad Request"
+    }
+  ],
+  "ms": "+0ms",
+  "timestamp": "2023-01-18T09:30:31.949Z"
+}
+{
+  "level": "error",
+  "message": [
+    {
+      "message": "something went wrong",
+      "status": 400,
+      "type": "Bad Request"
+    }
+  ],
+  "ms": "+0ms",
+  "timestamp": "2023-01-18T09:31:40.488Z"
+}
+{
+  "level": "error",
+  "message": [
+    {
+      "message": "something went wrong",
+      "status": 400,
+      "type": "Bad Request"
+    }
+  ],
+  "ms": "+0ms",
+  "timestamp": "2023-01-18T09:35:29.057Z"
+}
+{
+  "level": "error",
+  "message": [
+    {
+      "message": "something went wrong",
+      "status": 400,
+      "type": "Bad Request"
+    }
+  ],
+  "ms": "+0ms",
+  "timestamp": "2023-01-18T09:36:11.218Z"
+}
+{
+  "level": "error",
+  "message": [
+    {
+      "message": "something went wrong",
+      "status": 400,
+      "type": "Bad Request"
+    }
+  ],
+  "ms": "+0ms",
+  "timestamp": "2023-01-18T09:38:59.855Z"
+}
+{
+  "level": "error",
+  "message": [
+    {
+      "message": "something went wrong",
+      "status": 400,
+      "type": "Bad Request"
+    }
+  ],
+  "ms": "+0ms",
+  "timestamp": "2023-01-18T09:40:31.374Z"
+}
+{
+  "level": "error",
+  "message": [
+    {
+      "message": "something went wrong",
+      "status": 400,
+      "type": "Bad Request"
+    }
+  ],
+  "ms": "+0ms",
+  "timestamp": "2023-01-18T09:43:07.866Z"
+}
+{
+  "level": "error",
+  "message": [
+    {
+      "message": "something went wrong",
+      "status": 400,
+      "type": "Bad Request"
+    }
+  ],
+  "ms": "+0ms",
+  "timestamp": "2023-01-18T09:43:51.863Z"
+}
+{
+  "level": "error",
+  "message": [
+    {
+      "message": "something went wrong",
+      "status": 400,
+      "type": "Bad Request"
+    }
+  ],
+  "ms": "+0ms",
+  "timestamp": "2023-01-18T09:44:25.803Z"
+}
+{
+  "level": "error",
+  "message": [
+    {
+      "message": "something went wrong",
+      "status": 400,
+      "type": "Bad Request"
+    }
+  ],
+  "ms": "+0ms",
+  "timestamp": "2023-01-18T09:45:56.504Z"
+}
+{
+  "level": "error",
+  "message": [
+    {
+      "message": "something went wrong",
+      "status": 400,
+      "type": "Bad Request"
+    }
+  ],
+  "ms": "+51s",
+  "timestamp": "2023-01-18T09:46:47.066Z"
+}
+{
+  "level": "error",
+  "message": [
+    {
+      "message": "something went wrong",
+      "status": 400,
+      "type": "Bad Request"
+    }
+  ],
+  "ms": "+0ms",
+  "timestamp": "2023-01-18T09:47:51.463Z"
+}
+{
+  "level": "error",
+  "message": [
+    {
+      "message": "something went wrong",
+      "status": 400,
+      "type": "Bad Request"
+    }
+  ],
+  "ms": "+0ms",
+  "timestamp": "2023-01-18T09:49:41.289Z"
+}
+{
+  "level": "error",
+  "message": [
+    {
+      "message": "something went wrong",
+      "status": 400,
+      "type": "Bad Request"
+    }
+  ],
+  "ms": "+38s",
+  "timestamp": "2023-01-18T09:50:19.316Z"
+}
+{
+  "level": "error",
+  "message": [
+    {
+      "message": "something went wrong",
+      "status": 400,
+      "type": "Bad Request"
+    }
+  ],
+  "ms": "+0ms",
+  "timestamp": "2023-01-18T09:50:53.445Z"
+}
+{
+  "level": "error",
+  "message": [
+    {
+      "exception": {},
+      "message": "something went wrong"
+    }
+  ],
+  "ms": "+0ms",
+  "timestamp": "2023-01-18T09:53:58.033Z"
+}
+{
+  "level": "error",
+  "message": [
+    {
+      "exception": {},
+      "message": "something went wrong"
+    }
+  ],
+  "ms": "+0ms",
+  "timestamp": "2023-01-18T10:08:50.442Z"
+}
+{
+  "level": "error",
+  "message": [
+    {
+      "exception": {},
+      "message": "something went wrong"
+    }
+  ],
+  "ms": "+0ms",
+  "timestamp": "2023-01-18T10:09:28.388Z"
+}
+{
+  "level": "error",
+  "message": [
+    {
+      "error": {},
+      "message": "m7md",
+      "status": 400,
+      "type": "Bad Request"
+    }
+  ],
+  "ms": "+0ms",
+  "timestamp": "2023-01-18T10:11:44.658Z"
+}
+{
+  "level": "error",
+  "message": [
+    {
+      "error": {},
+      "message": "يرجى ادخال الفترة صحيحة",
+      "status": 400,
+      "type": "Bad Request"
+    }
+  ],
+  "ms": "+0ms",
+  "timestamp": "2023-01-18T10:13:57.726Z"
+}
+{
+  "level": "error",
+  "message": [
+    {
+      "exception": {
+        "message": "Cannot POST /plate/exchange/1",
+        "name": "NotFoundException",
+        "options": {},
+        "response": {
+          "error": "Not Found",
+          "message": "Cannot POST /plate/exchange/1",
+          "statusCode": 404
+        },
+        "status": 404
+      },
+      "message": "Cannot POST /plate/exchange/1"
+    }
+  ],
+  "ms": "+0ms",
+  "timestamp": "2023-01-18T10:25:17.429Z"
+}
+{
+  "level": "error",
+  "message": [
+    {
+      "exception": {
+        "message": "Bad Request Exception",
+        "name": "BadRequestException",
+        "options": {},
+        "response": {
+          "error": "Bad Request",
+          "message": [
+            "Enter a valid number."
+          ],
+          "statusCode": 400
+        },
+        "status": 400
+      },
+      "message": [
+        "Enter a valid number."
+      ]
+    }
+  ],
+  "ms": "+0ms",
+  "timestamp": "2023-01-18T10:47:05.621Z"
+}
+{
+  "level": "error",
+  "message": [
+    {
+      "error": {},
+      "message": "لا يمكن تعديل رقم اللوحة او نوع الترخيص على لوجة تم صرفها",
+      "status": 400,
+      "type": "Bad Request"
+    }
+  ],
+  "ms": "+0ms",
+  "timestamp": "2023-01-18T10:47:43.385Z"
+}
+{
+  "level": "error",
+  "message": [
+    {
+      "exception": {
+        "message": "Bad Request Exception",
+        "name": "BadRequestException",
+        "options": {},
+        "response": {
+          "error": "Bad Request",
+          "message": [
+            "Enter a valid number."
+          ],
+          "statusCode": 400
+        },
+        "status": 400
+      },
+      "message": [
+        "Enter a valid number."
+      ]
+    }
+  ],
+  "ms": "+11s",
+  "timestamp": "2023-01-18T10:47:54.826Z"
+}
+{
+  "level": "error",
+  "message": [
+    {
+      "error": {},
+      "message": "لا يمكن تعديل رقم اللوحة او نوع الترخيص على لوجة تم صرفها",
+      "status": 400,
+      "type": "Bad Request"
+    }
+  ],
+  "ms": "+17s",
+  "timestamp": "2023-01-18T10:48:11.526Z"
+}
+{
+  "level": "error",
+  "message": [
+    {
+      "exception": {
+        "message": "Bad Request Exception",
+        "name": "BadRequestException",
+        "options": {},
+        "response": {
+          "error": "Bad Request",
+          "message": [
+            "Enter a valid number."
+          ],
+          "statusCode": 400
+        },
+        "status": 400
+      },
+      "message": [
+        "Enter a valid number."
+      ]
+    }
+  ],
+  "ms": "+0ms",
+  "timestamp": "2023-01-18T10:48:41.625Z"
+}
+{
+  "level": "error",
+  "message": [
+    {
+      "error": {},
+      "message": "لا يمكن تعديل رقم اللوحة او نوع الترخيص على لوجة تم صرفها",
+      "status": 400,
+      "type": "Bad Request"
+    }
+  ],
+  "ms": "+0ms",
+  "timestamp": "2023-01-18T10:49:08.258Z"
+}
+{
+  "level": "error",
+  "message": [
+    {
+      "exception": {
+        "message": "Bad Request Exception",
+        "name": "BadRequestException",
+        "options": {},
+        "response": {
+          "error": "Bad Request",
+          "message": [
+            "Enter a valid number."
+          ],
+          "statusCode": 400
+        },
+        "status": 400
+      },
+      "message": [
+        "Enter a valid number."
+      ]
+    }
+  ],
+  "ms": "+5s",
+  "timestamp": "2023-01-18T10:49:13.575Z"
+}
+{
+  "level": "error",
+  "message": [
+    {
+      "error": {},
+      "message": "لا يمكن تعديل رقم اللوحة او نوع الترخيص على لوجة تم صرفها",
+      "status": 400,
+      "type": "Bad Request"
+    }
+  ],
+  "ms": "+0ms",
+  "timestamp": "2023-01-18T10:49:41.432Z"
+}
+{
+  "level": "error",
+  "message": [
+    {
+      "exception": {
+        "message": "Bad Request Exception",
+        "name": "BadRequestException",
+        "options": {},
+        "response": {
+          "error": "Bad Request",
+          "message": [
+            "Enter a valid number with char ."
+          ],
+          "statusCode": 400
+        },
+        "status": 400
+      },
+      "message": [
+        "Enter a valid number with char ."
+      ]
+    }
+  ],
+  "ms": "+7s",
+  "timestamp": "2023-01-18T10:49:48.872Z"
+}
+{
+  "level": "error",
+  "message": [
+    {
+      "exception": {},
+      "message": "something went wrong"
+    }
+  ],
+  "ms": "+0ms",
+  "timestamp": "2023-01-18T13:03:28.967Z"
+}
+{
+  "level": "error",
+  "message": [
+    {
+      "error": {},
+      "message": "ليس لديك الصالحية للتعديل",
+      "status": 400,
+      "type": "Bad Request"
+    }
+  ],
+  "ms": "+0ms",
+  "timestamp": "2023-01-18T13:04:09.073Z"
+}
+{
+  "level": "error",
+  "message": [
+    {
+      "exception": {
+        "message": "Not Found Plate",
+        "name": "NotFoundException",
+        "options": {},
+        "response": {
+          "error": "Not Found",
+          "message": "Not Found Plate",
+          "statusCode": 404
+        },
+        "status": 404
+      },
+      "message": "Not Found Plate"
+    }
+  ],
+  "ms": "+0ms",
+  "timestamp": "2023-01-18T13:37:35.174Z"
+}
+{
+  "level": "error",
+  "message": [
+    {
+      "error": {},
+      "message": "لا يمكنك حذف لوحة مصروفة",
+      "status": 400,
+      "type": "Bad Request"
+    }
+  ],
+  "ms": "+46s",
+  "timestamp": "2023-01-18T13:38:21.638Z"
+}
+{
+  "level": "error",
+  "message": [
+    {
+      "error": {},
+      "message": "ليس لديك الصالحية للتعديل",
+      "status": 400,
+      "type": "Bad Request"
+    }
+  ],
+  "ms": "+35s",
+  "timestamp": "2023-01-18T13:38:56.689Z"
+}
+{
+  "level": "error",
+  "message": [
+    {
+      "error": {},
+      "message": "ليس لديك الصالحية للتعديل",
+      "status": 400,
+      "type": "Bad Request"
+    }
+  ],
+  "ms": "+20s",
+  "timestamp": "2023-01-18T13:39:16.820Z"
+}
+{
+  "level": "error",
+  "message": [
+    {
+      "message": "something went wrong",
+      "status": 400,
+      "type": "Bad Request"
+    }
+  ],
+  "ms": "+33s",
+  "timestamp": "2023-01-18T13:39:49.692Z"
+}
+{
+  "level": "error",
+  "message": [
+    {
+      "message": "something went wrong",
+      "status": 400,
+      "type": "Bad Request"
+    }
+  ],
+  "ms": "+0ms",
+  "timestamp": "2023-01-18T13:44:45.147Z"
+}
+{
+  "level": "error",
+  "message": [
+    {
+      "exception": {
+        "message": "Unauthorized",
+        "name": "UnauthorizedException",
+        "options": {},
+        "response": {
+          "message": "Unauthorized",
+          "statusCode": 401
+        },
+        "status": 401
+      },
+      "message": "Unauthorized"
+    }
+  ],
+  "ms": "+0ms",
+  "timestamp": "2023-01-18T13:55:35.350Z"
+}
+{
+  "level": "error",
+  "message": [
+    {
+      "exception": {
+        "message": "Bad Request Exception",
+        "name": "BadRequestException",
+        "options": {},
+        "response": {
+          "error": "Bad Request",
+          "message": [
+            "userName must be an email"
+          ],
+          "statusCode": 400
+        },
+        "status": 400
+      },
+      "message": [
+        "userName must be an email"
+      ]
+    }
+  ],
+  "ms": "+0ms",
+  "timestamp": "2023-01-21T15:42:03.827Z"
+}
+{
+  "level": "error",
+  "message": [
+    {
+      "exception": {
+        "message": "Credentials incorrect",
+        "name": "ForbiddenException",
+        "options": {},
+        "response": {
+          "error": "Forbidden",
+          "message": "Credentials incorrect",
+          "statusCode": 403
+        },
+        "status": 403
+      },
+      "message": "Credentials incorrect"
+    }
+  ],
+  "ms": "+0ms",
+  "timestamp": "2023-01-21T15:45:25.134Z"
+}
+{
+  "level": "error",
+  "message": [
+    {
+      "exception": {
+        "message": "Unauthorized",
+        "name": "UnauthorizedException",
+        "options": {},
+        "response": {
+          "message": "Unauthorized",
+          "statusCode": 401
+        },
+        "status": 401
+      },
+      "message": "Unauthorized"
+    }
+  ],
+  "ms": "+28s",
+  "timestamp": "2023-01-21T15:45:52.853Z"
+}
+{
+  "level": "error",
+  "message": [
+    {
+      "exception": {
+        "message": "Unauthorized",
+        "name": "UnauthorizedException",
+        "options": {},
+        "response": {
+          "message": "Unauthorized",
+          "statusCode": 401
+        },
+        "status": 401
+      },
+      "message": "Unauthorized"
+    }
+  ],
+  "ms": "+25s",
+  "timestamp": "2023-01-21T15:46:18.076Z"
+}
+{
+  "level": "error",
+  "message": [
+    {
+      "exception": {
+        "message": "User Not found",
+        "name": "NotFoundException",
+        "options": {},
+        "response": {
+          "error": "Not Found",
+          "message": "User Not found",
+          "statusCode": 404
+        },
+        "status": 404
+      },
+      "message": "User Not found"
+    }
+  ],
+  "ms": "+43s",
+  "timestamp": "2023-01-21T15:47:00.872Z"
+}
+{
+  "level": "error",
+  "message": [
+    {
+      "exception": {
+        "message": "Unauthorized",
+        "name": "UnauthorizedException",
+        "options": {},
+        "response": {
+          "message": "Unauthorized",
+          "statusCode": 401
+        },
+        "status": 401
+      },
+      "message": "Unauthorized"
+    }
+  ],
+  "ms": "+0ms",
+  "timestamp": "2023-01-21T16:02:23.376Z"
+}
