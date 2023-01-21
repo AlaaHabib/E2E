@@ -1,0 +1,47 @@
+version: '3.3'
+name: test-dev
+services:
+  test-api:
+    stdin_open: true
+    tty: true
+    environment:
+      - CHOKIDAR_USEPOLLING=true
+      - NEST_ENV=${NEST_ENV}
+      - Rate_Limit_TTL=${Rate_Limit_TTL}
+      - Rate_Limit_Count=${Rate_Limit_Count}
+      - lISTEN_PORT=${lISTEN_PORT}
+    container_name: test-api
+    image: test-dev-api
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: npm run start:dev
+    ports:
+      - 8081:8080
+    networks:
+      - test-dev-network
+    volumes:
+      - .:/app
+    restart: unless-stopped
+    depends_on:
+      - test-mysql
+
+  test-mysql:
+    container_name: test-mysql-db
+    image: mysql
+    environment:
+      DATA_BASE_HOST: ${DATA_BASE_HOST}
+      DATA_BASE_PORT: ${DATA_BASE_PORT}
+      DATA_BASE_NAME: ${DATA_BASE_NAME}
+      DATA_BASE_USER_NAME: ${DATA_BASE_USER_NAME}
+      DATA_BASE_PASSWORD: ${DATA_BASE_PASSWORD}
+    volumes:
+      - ./data/mq:/data/mysql
+    ports:
+      - '${DATA_BASE_PORT}:5432'
+    restart: unless-stopped
+    networks:
+      - test-dev-network
+networks:
+  test-dev-network:
+    driver: bridge
